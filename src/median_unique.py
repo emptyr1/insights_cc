@@ -25,4 +25,4 @@ with open(output_file, 'w+') as out_file:
             num_unique_wrds.append(count)
             medianVal = median(num_unique_wrds)
             out_file.write("%.2f\n" % medianVal)
-            words.clear()
+            words.clear() #clear out/empty words collection tuple
