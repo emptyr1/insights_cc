@@ -1,7 +1,8 @@
 Insight Data Engineering - Coding Challenge
 ===========================================================
-#Author: Mudit Uppal
-#Email: mudit.uppal@yahoo.com
+
+###Author: Mudit Uppal
+###Email: mudit.uppal@yahoo.com
 
 
 This challenge required us to implement two features:

@@ -26,3 +26,18 @@ with open(output_file, 'w+') as out_file:
             medianVal = median(num_unique_wrds)
             out_file.write("%.2f\n" % medianVal)
             words.clear() #clear out/empty words collection tuple
+
+
+
+#Alternate way:
+'''
+def median(in_list):
+    in_list = sorted(in_list)
+    if len(in_list) < 1:
+            return None
+    if len(in_list) %2 == 1:
+            return in_list[((len(in_list)+1)/2)-1]
+    else:
+            return float(sum(in_list[(len(in_list)/2)-1:(len(in_list)/2)+1]))/2.0
+
+'''
