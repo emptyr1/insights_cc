@@ -22,4 +22,4 @@ Assumptions:
 - A word is defined as anything separated by whitespace. 
 
 
-
+> My resume/portoflio can be found at: http://muppal.com/ and http://blog.muppal.com/
